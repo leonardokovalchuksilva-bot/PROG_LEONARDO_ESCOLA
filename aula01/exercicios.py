@@ -27,21 +27,31 @@ def maior_valor(lista):
     return maior
 
 def existe(lista, alvo):
-    existe = n
     for i in lista: 
         if n == i:
-            return true
+            return True
     
-    return false
+    return False
 
 
 def busca_linear(lista, alvo):
-   def busca_linear ( lista , alvo ) :
-for i in range (len ( lista ) ) :
-if lista [ i ] == alvo :
-return 
-return -1
+    for i in range (len ( lista ) ) :
+        if lista [ i ] == alvo :
+            return i
+    return -1
 
 def segundo_maior(lista):
-    """(Desafio) Devolve o segundo maior, percorrendo a lista uma unica vez."""
-    pass
+    maior = lista[0]
+    segundo = lista[1]
+    if maior < segundo:
+        maior, segundo = segundo, maior
+
+    for n in lista[2:]:
+        if n > maior:
+            segundo = maior
+            maior = n
+        elif n > segundo and n != maior:
+            segundo = n
+            
+    return segundo
+
