@@ -50,7 +50,7 @@ def segundo_maior(lista):
         if n > maior:
             segundo = maior
             maior = n
-        elif n > segundo and n != maior:
+        elif n > segundo:
             segundo = n
             
     return segundo
