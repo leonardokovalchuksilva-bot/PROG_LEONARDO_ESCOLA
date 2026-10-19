@@ -4,7 +4,9 @@ Oi, Leonardo.
 
 Corrigi a sua Lista A. Nota: **1,05 de 1,50**, passaram 59 dos 59 casos de teste.
 
-O último envio foi 18/10 17:22 e o prazo era 18/10 às 12:00. Entrega fora do prazo vale no máximo 70% da lista (1,05), por isso a nota ficou nesse limite.
+O último envio foi 18/10 16:17 e o prazo era 18/10 às 12:00. Entrega fora do prazo vale no máximo 70% da lista (1,05).
+
+Por isso a sua nota ficou nesse limite.
 
 ## Exercício por exercício
 
